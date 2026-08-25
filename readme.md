@@ -75,3 +75,9 @@ npm install
 cp .env.example .env
 npm run dev
 ```
+
+## Problem 6: Scoreboard API Module (Specification) ##
+
+Solution: [src/problem6/README.md](src/problem6/README.md)
+
+A specification (not an implementation) for a backend module that tracks user scores, serves a live top-10 leaderboard, and accepts authorized score-increment requests. Covers the data model, REST + WebSocket API, a Mermaid sequence diagram of the execution flow, and — most importantly — the anti-abuse design: server-decided score deltas, signed single-use short-lived action tokens bound to the session, atomic consume-and-credit, rate limiting, and an audit trail. Ends with a list of suggested improvements beyond the base requirements (idempotent retries, anomaly detection, score seasons, IP retention/privacy, WebSocket scaling).
