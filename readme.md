@@ -60,3 +60,18 @@ Run it:
 ```bash
 npx ts-node src/problem4/sum_to_n.ts
 ```
+
+## Problem 5: CRUD API ##
+
+Solution: [src/problem5](src/problem5) — see its [README](src/problem5/README.md) for details.
+
+An ExpressJS + TypeScript REST API for a `Product` resource, persisted to a local SQLite database (`better-sqlite3`). Full CRUD: create, list with filters (category, search query, min/max price, in-stock, pagination), get by id, partial update, and delete — plus centralized validation and error handling.
+
+Run it:
+
+```bash
+cd src/problem5
+npm install
+cp .env.example .env
+npm run dev
+```
