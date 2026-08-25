@@ -24,3 +24,17 @@ Run it:
 ```bash
 node src/problem1/sum_to_n.js
 ```
+
+## Problem 2: Currency Swap Form ##
+
+Solution: [src/problem2](src/problem2) — see its [README](src/problem2/README.md) for details.
+
+A React + TypeScript + Vite + Tailwind CSS swap form with live token prices/icons, a searchable token picker, real-time conversion, input validation (invalid amount, insufficient balance, duplicate tokens), a flip button, and a simulated (loading → success) submit flow.
+
+Run it:
+
+```bash
+cd src/problem2
+npm install
+npm run dev
+```
